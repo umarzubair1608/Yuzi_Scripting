@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Tables in HTML Very Important to understand -->
+<!-- Table --) Tr = Table row , Th= Table Heading,Td=Table data/description  -->
+    <title>Table</title>
+    <!-- Apllying some CSS to look as a table -->
+    <!-- You use style word whenever u need to use CSS -->
+
+    <Style>
+        /* we need css styling for table tr th and td  */
+        .table,tr,th,td
+        {
+border: 1px solid black;
+        }
+
+    </Style>
+
+</head>
+<body>
+    <!-- border collapse table k border me space ni rhne deta -->
+    <table style="width: 100%;color: rgb(98, 12, 236); border-collapse: collapse;text-align: center;background-color: darkgray;">
+<!-- Table Row Works as column -->
+<tr>
+    <!-- Table Heading withintable row -->
+    <!-- colspan attribute multiple columns ko 1 me e merge kr deta he like 1 person k agar 2 phone #s hn to vo usi column me show hnge  -->
+     <!-- rowspan attribute multiple rows ko 1 me e merge kr deta he like 1 person k agar 2 phone #s hn to vo usi column me show hnge  -->
+    <th>Name</th>
+    <th colspan="2" > Phone #</th>
+    <th>City</th>
+</tr>
+<tr>
+<td rowspan="4" >Umar</td>
+<td>0469701729</td>
+<td>0456897638</td>
+<td>Melbourne</td>
+
+</tr>
+<tr>
+    
+    <td>04697032729</td>
+    <td>045644897638</td>
+    <td>Sydney</td>
+    
+    </tr>
+    <tr>
+      
+        <td>0469701729</td>
+        <td>045213437638</td>
+        <td>Lahore</td>
+        
+        </tr>
+        <tr>
+           
+            <td>0469701729</td>
+            <td>0456897638</td>
+            <td>Karachi</td>
+            
+            </tr>
+
+    </table>
+</body>
+</html>

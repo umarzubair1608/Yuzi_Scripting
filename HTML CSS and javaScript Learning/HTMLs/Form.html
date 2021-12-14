@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Form</title>
+</head>
+<!-- input type , name and value -->
+
+<!-- input type Type	Description
+<input type="text">	Displays a single-line text input field
+<input type="radio">	Displays a radio button (for selecting one of many choices)
+<input type="checkbox">	Displays a checkbox (for selecting zero or more of many choices)
+<input type="submit">	Displays a submit button (for submitting the form)
+<input type="button">	Displays a clickable button -->
+
+
+<!-- action attribute specifies where to send the form data -->
+<!-- autocomplete attribute "on" or "off" -->
+<!-- Method attribute specifies how to send form data(the form data is sent to the page specified in th action attribute) -->
+<!-- the form data can be sent as URL variables , with method ="get"(shows in URL) or with method ="post"(does not show in URL,secure) -->
+<!-- In enctype attribute, spaces are converted in to "+" symbol, but no special characters are encoded  -->
+<!-- Name attribute is to name your form -->
+<!-- novalidate attribute --) when present,it specifies that form-data(input) should not be validated when submitted -->
+<!-- Target attribute--) there are different target attributes if _blank, response will be displayed in new tab 
+if _self, response will be displayed in the same frame(dafault). 
+if _parent,response will be displayed in the parent frame
+if _top, response will be displayed in the full body of the windoe
+_framename, response will be displayed in a named iframe -->
+
+<body>
+    <form action="Thanks.html" autocomplete="on" target="_blank">
+      <p> First Name : <input type="text" name="fname"><br><br>
+        Last Name : <input type="text" name="lname"><br><br>
+Gender : <input type="checkbox" name="check" id="Male">Male
+<input type="checkbox" name="check" id="fmale">Female <br><br>
+
+      Muslim   <input type="radio" name="radio">Yes
+       <input type="radio" name="radio">  No<br><br>
+
+    Enter your Password Here :   <input type="password"><br><br>
+
+        <input type="submit">
+        </p> 
+
+    </form>
+</body>
+
+</html>
